@@ -1,0 +1,14 @@
+C:\Users\marie\source\repos\Inventarios\Inventarios\bin\Debug\Inventarios.exe.config
+C:\Users\marie\source\repos\Inventarios\Inventarios\bin\Debug\Inventarios.exe
+C:\Users\marie\source\repos\Inventarios\Inventarios\bin\Debug\Inventarios.pdb
+C:\Users\marie\source\repos\Inventarios\Inventarios\bin\Debug\Inventarios.xml
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.vbproj.AssemblyReference.cache
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.Menu.resources
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.Resources.resources
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.vbproj.GenerateResource.cache
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.vbproj.CoreCompileInputs.cache
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.exe
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.xml
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.pdb
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.Form1.resources
+C:\Users\marie\source\repos\Inventarios\Inventarios\obj\Debug\Inventarios.Mercancias1.resources

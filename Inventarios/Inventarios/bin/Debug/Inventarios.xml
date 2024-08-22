@@ -1,0 +1,276 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Inventarios
+</name>
+</assembly>
+<members>
+<member name="T:Inventarios.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Inventarios.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Inventarios.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.EntradasInventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.ProveedoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.SalidasInventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.EntradasInventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.ProveedoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.SalidasInventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.EntradasInventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.ProveedoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSet.SalidasInventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.EntradasInventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.ProveedoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.SalidasInventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventarios.AlmacenDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventarios.AlmacenDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventarios.AlmacenDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventarios.AlmacenDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.EntradasInventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.ProveedoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.SalidasInventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.EntradasInventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.ProveedoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.SalidasInventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.EntradasInventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.ProveedoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSet.SalidasInventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.EntradasInventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.ProveedoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.SalidasInventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventarios.AlmacenesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventarios.AlmacenesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventarios.AlmacenesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventarios.AlmacenesDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventarios.AlmacenesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
